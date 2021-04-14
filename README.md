@@ -1,2 +1,2 @@
 # Yi-M1-mirrorless
-https://gist.github.com/Qgrade
+See: https://gist.github.com/Qgrade
