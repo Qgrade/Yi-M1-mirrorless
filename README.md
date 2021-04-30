@@ -27,26 +27,31 @@ Response:
 DeleteFile
 file_list:path
 {"command":"DeleteFile","file_list":["/DCIM/100YICAM/PA100009.JPG"]}
+
 Response:
 {"code":200}
 
 RCStopRemoteCtl
+
 Response:
 {"code":200}
 
 RCStartRemoteCtl
 {"command":"RCStartRemoteCtl"}
+
 Response:
 {"code":200}
 
 RCDoShooting #do one shoot
 {"command":"RCDoShooting"}
+
 Response:
 {"code":200}
 
 RCFocusModeSet
 FocusMode:"S-AF", "C-AF", "MF"
 {"command":"RCFocusModeSet","FocusMode":"MF"}
+
 Response:
 {"code":200}
 
@@ -57,43 +62,50 @@ ShutterSpeed:TIME, BULB, 60s - 1/4000s
 RCImageAspect
 ImageAspect:"4:3","3:2","16:9","1:1"
 {"command":"RCImageAspect","ImageAspect":"4:3"}
+
 Response:
 {"code":200}
 
 RCFileFormatSet
 FileFormat:JPG-S, JPG-M, JPG-L, RAW, RAWJ-S, RAWJ-M, RAWJ-L
 {"command":"RCFileFormatSet","FileFormat":"JPG-S"}
+
 Response:
 {"code":200}
 
 RCDriveModeSet
 DriveMode:"Single", "Continuous", "2SDelay", "10SDelay"
 {"command":"RCDriveModeSet","DriveMode":"2SDelay"}
+
 Response:
 {"code":200}
 
 RCFNSet
 Fnumber:
 {"command":"RCFNSet","Fnumber":"3.2"}
+
 Response:
 {"code":200}
 
 RCISOSet
 ISO:Auto, 100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600
 {"command":"RCISOSet","ISO":"400"}
+
 Response:
 {"code":200}
 
 RCWBSet
 WB:Auto, Sunny, Shadow, Cloudy, Incandescent, 2000 - 11500
 {"command":"RCWBSet","WB":"Auto"}
+
 Response:
 {"code":200}
 
 RCChooseColorMode
 ColorMode:Standard, Portrait, Vivid, NaturalBW, HContrastBW
 {"command":"RCChooseColorMode","ColorMode":"Vivid"}
+
 Response:
 {"code":200}
 
-They are probaly few more commands to find..
+**bold** They are probaly few more commands to find..
