@@ -36,7 +36,7 @@ path:/DCIM/100YICAM/filename.ext (JPG, DNG)
 date:
 resulotion:Thumbnail, MidThumb, Original
 e.g 
-{["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"","resulotion":"Thumbnaill"]}
+{["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"","resulotion":"Thumbnail"]}
 
 **(view picture in browser)**
 http://192.168.0.10/?data={["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"","resulotion":"Thumbnail"]}
