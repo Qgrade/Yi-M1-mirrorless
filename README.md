@@ -51,6 +51,7 @@ Response:
 ### RC=RemoteControl
 
 **RCStopRemoteCtl**
+{"command":"RCStopRemoteCtl"}
 Response:
 {"code":200}
 
