@@ -39,7 +39,7 @@ e.g
 {["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"","resulotion":"Thumbnaill"]}
 
 **(view picture in browser)**
-http://192.168.0.10/?data={["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"1632407839","resulotion":"Thumbnaill"]}
+http://192.168.0.10/?data={["command":"GetFile","path":"/DCIM/100YICAM/P9230220.JPG","date":"","resulotion":"Thumbnail"]}
 
 
 **DeleteFile**
